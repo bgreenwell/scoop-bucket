@@ -1,12 +1,12 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A fast terminal Excel viewer with interactive TUI, search, formulas, and export capabilities",
   "homepage": "https://github.com/bgreenwell/xleak",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/bgreenwell/xleak/releases/download/v0.2.2/xleak-x86_64-pc-windows-msvc.msi",
-      "hash": "ac2eccaf5560728f7c50c5542dcefbcd2e2a82a391190e938c263ae093553c1d"
+      "url": "https://github.com/bgreenwell/xleak/releases/download/v0.2.3/xleak-x86_64-pc-windows-msvc.zip",
+      "hash": "9d48c043cfc909b5ff0187c4d3ccb3143337849dacf33337e5a9027ad4ee1cc1"
     }
   },
   "bin": "xleak.exe",
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/bgreenwell/xleak/releases/download/v$version/xleak-x86_64-pc-windows-msvc.msi"
+        "url": "https://github.com/bgreenwell/xleak/releases/download/v$version/xleak-x86_64-pc-windows-msvc.zip"
       }
     }
   }
