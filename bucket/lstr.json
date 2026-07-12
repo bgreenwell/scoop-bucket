@@ -1,0 +1,23 @@
+{
+  "version": "0.3.0",
+  "description": "Terminal document viewer for .docx files",
+  "homepage": "https://github.com/bgreenwell/lstr",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-x86_64-pc-windows-msvc.zip",
+      "hash": "421f4020571b68517d41ce6073b6977289d8449f2c01271a9fd58b3a84857761"
+    }
+  },
+  "bin": "lstr.exe",
+  "checkver": {
+    "github": "https://github.com/bgreenwell/lstr"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/bgreenwell/lstr/releases/download/v$version/lstr-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}
