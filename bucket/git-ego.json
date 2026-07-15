@@ -1,12 +1,12 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Git identity manager with directory-based profile switching",
   "homepage": "https://github.com/bgreenwell/git-ego",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/bgreenwell/git-ego/releases/download/v0.2.3/git-ego-v0.2.3-windows-x86_64.zip",
-      "hash": "264a46395f6de5c00c4fcdff1d49f3b83bc6557c01b8cc84782e91d0da9d1892"
+      "url": "https://github.com/bgreenwell/git-ego/releases/download/v0.2.4/git-ego-v0.2.4-windows-x86_64.zip",
+      "hash": "997b794aa10e4492c7e9344a418430c4ea25d01b5ee045226f0a721fffebbfbb"
     }
   },
   "bin": "git-ego.exe",
